@@ -4,7 +4,6 @@ import './AlbumItem.css';
 class AlbumItem extends Component {
   
   render() {
-    console.log(this.props);
     return  (
       <article className="AlbumItem">
         <div className="preview" style={{backgroundImage: `url(${this.props.img})`}}></div>
