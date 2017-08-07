@@ -1,0 +1,14 @@
+.Photo {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #e7e7e7;
+}
+.Photo .preview {
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  flex-shrink: 0;
+} 
