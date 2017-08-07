@@ -2,6 +2,7 @@
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://belskiyroman.github.io/facebook/",
   "dependencies": {
     "node-sass-chokidar": "0.0.3",
     "react": "^15.6.1",
