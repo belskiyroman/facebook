@@ -1,6 +1,8 @@
 .DS_Store
 *.log
 *.swp
+*.css
+.idea
 node_modules
 lib
 umd
