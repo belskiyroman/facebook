@@ -1,0 +1,17 @@
+.Photo {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100px;
+  border-radius: 4px;
+  background: #e7e7e7; }
+  .Photo .preview {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    flex-shrink: 0; }
+  .Photo .Hint {
+    display: none;
+    bottom: calc(-100% - 36px); }
+  .Photo:hover .Hint {
+    display: unset; }
