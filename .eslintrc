@@ -2,11 +2,13 @@
   "parser": "babel-eslint",
   "env": {
     "browser": true,
-    "node": true
+    "node": false,
+    "es6": true
   },
   "plugins": [
     "import",
-    "react"
+    "react",
+    "babel"
   ],
   "extends": [
     "eslint:recommended",
@@ -15,6 +17,7 @@
   ],
   "rules": {
     "semi": 2,
+    "no-console":0,
     "quotes": ["error", "single"]
   }
 }
